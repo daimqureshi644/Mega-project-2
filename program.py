@@ -4,7 +4,7 @@ import time
 import google.generativeai as genai
 
 
-genai.configure(api_key="AIzaSyASZbzPPpBHYoxNkxHSwyKHviyI-hTeXzQ")
+genai.configure(api_key="api key")
 
 
 def is_last_message_form_sender(chat_log, sender_name = "Saify Petalnex"):
@@ -54,5 +54,6 @@ while True:
         time.sleep(1)
 
         pyautogui.press('enter')
+
 
 
